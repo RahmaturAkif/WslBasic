@@ -1,2 +1,5 @@
 wslconfig /l
 wslconfig /u Ubuntu
+wsl --install
+sudo apt update && sudo apt upgrade
+cd /home/
