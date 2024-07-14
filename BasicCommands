@@ -3,3 +3,4 @@ wslconfig /u Ubuntu
 wsl --install
 sudo apt update && sudo apt upgrade
 cd /home/
+sudo git clone https://github.com/comfyanonymous/ComfyUI.git
