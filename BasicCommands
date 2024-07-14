@@ -6,3 +6,12 @@ cd /home/
 sudo git clone https://github.com/comfyanonymous/ComfyUI.git
 sudo apt install python3-pip
 pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu124
+cd /home/ComfyUI/
+pip install -r requirements.txt
+cd /tmp
+sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+sudo apt install --fix-broken -y
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+sudo mkdir user
+python3 main.py
