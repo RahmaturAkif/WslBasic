@@ -4,3 +4,5 @@ wsl --install
 sudo apt update && sudo apt upgrade
 cd /home/
 sudo git clone https://github.com/comfyanonymous/ComfyUI.git
+sudo apt install python3-pip
+pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu124
